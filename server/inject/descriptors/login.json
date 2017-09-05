@@ -10,7 +10,9 @@
         "action": [
           "submit"
         ]
-      }
+      },
+      "selector": "[name=\"username\"]",
+      "control": "value"
     },
     "password": {
       "type": "string",
@@ -20,7 +22,9 @@
         "action": [
           "submit"
         ]
-      }
+      },
+      "selector": "[name=\"password\"]",
+      "control": "value"
     },
     "errorMessage": {
       "type": "string",
@@ -38,7 +42,8 @@
         "password": {
           "type": "string"
         }
-      }
+      },
+      "selector": ".button"
     }
   },
   "connect": []
