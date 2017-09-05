@@ -8,7 +8,12 @@
     {
       "id": "8761234",
       "severity": "low",
-      "summary": "NOBODY nobody cares about it"
+      "summary": "nobody cares about it"
+    },
+    {
+        "id": "588548",
+        "severity": "2",
+        "summary": "this was typed inside mockdata text editor"
     }
   ]
 }
