@@ -1,1 +1,14 @@
-{}
+{
+  "issuesList": [
+    {
+      "id": "12345",
+      "severity": "fatal",
+      "summary": "this is a fatal error"
+    },
+    {
+      "id": "8761234",
+      "severity": "low",
+      "summary": "NOBODY nobody cares about it"
+    }
+  ]
+}
