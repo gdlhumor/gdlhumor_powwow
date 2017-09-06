@@ -47,7 +47,9 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td[class=\"issue-status\"]",
+            "control": "property.innerText"
           },
           "updated": {
             "type": "string",
