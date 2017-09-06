@@ -2,5 +2,9 @@
   "login.json",
   "reportissue.json",
   "viewissues.json",
-  "blank.json"
+  "blank.json",
+  "blank.json",
+  "login.json",
+  "viewissues.json",
+  "reportissue.json"
 ]
