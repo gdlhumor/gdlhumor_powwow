@@ -30,7 +30,7 @@
             "update": {
               "type": "none"
             },
-            "selector": "td",
+            "selector": "td span",
             "selectIndex": 8,
             "control": "property.innerText"
           },
