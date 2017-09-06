@@ -13,13 +13,18 @@
       "control": "select"
     },
     "description": {
-      "type": "string"
+      "type": "string",
+      "selector": "[name=\"description\"]",
+      "control": "text"
     },
     "picture": {
-      "type": "string"
+      "type": "string",
+      "selector": "#ufile[]"
     },
     "severity": {
-      "type": "select"
+      "type": "select",
+      "selector": "[name=\"severity\"]",
+      "control": "select"
     }
   },
   "connect": []
