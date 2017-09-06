@@ -22,7 +22,7 @@
     },
     "picture": {
       "type": "string",
-      "selector": "file",
+      "selector": "input[type=\"file\"]",
       "control": "text"
     },
     "severity": {
