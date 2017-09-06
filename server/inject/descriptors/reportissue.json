@@ -9,7 +9,7 @@
     },
     "category": {
       "type": "select",
-      "selector": "td",
+      "selector": "[name=\"category_id\"]",
       "control": "select"
     },
     "description": {
