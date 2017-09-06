@@ -116,5 +116,10 @@
         "type": "select"
       }
     }
+  },
+  "blank": {
+    "type": "object",
+    "comment": "",
+    "properties": {}
   }
 }
