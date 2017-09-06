@@ -29,7 +29,7 @@
     },
     "submit": {
       "type": "action",
-      "selector": "input[type=\"submit\"]",
+      "selector": ".button",
       "control": "action.button"
     }
   },
