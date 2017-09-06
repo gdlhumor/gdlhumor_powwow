@@ -16,13 +16,13 @@
       "type": "string",
       "selector": "[name=\"description\"]",
       "control": {
-        "fn": "function getDescription(){}",
+        "fn": "function get_Description(){}",
         "control": "text"
       }
     },
     "picture": {
       "type": "string",
-      "selector": "#ufile[]",
+      "selector": "file",
       "control": "text"
     },
     "severity": {
