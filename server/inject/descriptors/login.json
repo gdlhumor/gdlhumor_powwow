@@ -50,5 +50,10 @@
       "control": "action.link"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [],
+      "action": "submit"
+    }
+  ]
 }
