@@ -46,7 +46,7 @@
           "type": "string"
         }
       },
-      "selector": ".button",
+      "selector": "input[type=\"submit\"]",
       "control": "action.link"
     }
   },
