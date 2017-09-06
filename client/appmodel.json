@@ -121,5 +121,10 @@
     "type": "object",
     "comment": "",
     "properties": {}
+  },
+  "jump": {
+    "type": "object",
+    "comment": "",
+    "properties": {}
   }
 }
