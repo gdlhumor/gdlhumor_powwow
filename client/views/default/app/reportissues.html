@@ -8,5 +8,39 @@
             <button class="button button-icon ion-home" data-comp-id="button.2"></button>
         </ion-nav-buttons>
     </ion-nav-bar>
-    <ion-content data-comp-id="ionic-content.1"></ion-content>
+    <ion-content data-comp-id="ionic-content.1">
+        <div data-comp-id="div.1">
+            <div data-comp-id="div.2">
+                <label class="item" data-comp-id="takePhoto.1"
+                    ng-class="{'item-input item-button-right': style === 'control'}"
+                    take-photo="control">
+                    <span class="input-label" ng-if="style === 'control'">Take Photo</span>
+                    <button class="button button-icon" ng-if="style === 'control'">
+                        <i class="icon positive-icon ion-camera"></i>
+                    </button>
+                    <input disabled="" ng-if="style === 'control'" type="text">
+                    <button class="button button-block button-positive nomargin"
+                        ng-if="style === 'button'">Take Photo</button>
+                    <textarea class="not-visible"></textarea>
+                </label>
+            </div>
+            <div class="row" data-comp-id="row.1">
+                <div class="col" data-comp-id="column.1">
+                    <label class="item item-input" data-comp-id="textInput.1">
+                        <span class="input-label">Issue</span>
+                        <input type="text">
+                    </label>
+                </div>
+            </div>
+            <div class="row" data-comp-id="row.2">
+                <div class="col" data-comp-id="column.2">
+                    <label class="item  item-input item-select-icon positive-icon"
+                        data-comp-id="selectInput.1">
+                        <span class="input-label">Category</span>
+                        <select></select>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </ion-content>
 </ion-view>
