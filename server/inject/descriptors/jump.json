@@ -5,8 +5,10 @@
     "actionLink": {
       "type": "action"
     },
-    "id": {
-      "type": "string"
+    "needToJump": {
+      "type": "boolean",
+      "selector": "a[href*='view_all_bug']",
+      "control": "exists"
     }
   },
   "connect": []
