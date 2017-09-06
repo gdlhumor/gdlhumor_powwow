@@ -47,7 +47,8 @@
       "id": "jumpscreen",
       "name": "jumpScreen",
       "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank"
+      "sourceAppId": "_blank",
+      "model": "jump"
     }
   ],
   "sourceAppId": "_blank",
