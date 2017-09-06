@@ -26,6 +26,11 @@
       "type": "select",
       "selector": "[name=\"severity\"]",
       "control": "select"
+    },
+    "submit": {
+      "type": "action",
+      "selector": "[name=\"category_id\"]",
+      "control": "select"
     }
   },
   "connect": []
