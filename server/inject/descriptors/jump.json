@@ -8,12 +8,12 @@
     "needToJump": {
       "type": "boolean",
       "selector": {
-        "fn": "function needToJump(){return document.title}",
+        "fn": "function needToJump(){return document.title==''}",
         "selector": ""
       },
       "control": {
         "fn": "",
-        "control": ""
+        "control": "text"
       }
     }
   },
