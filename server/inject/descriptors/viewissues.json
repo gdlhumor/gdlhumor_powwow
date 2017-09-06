@@ -47,7 +47,7 @@
             "update": {
               "type": "none"
             },
-            "selector": "td:any-link",
+            "selector": "td:nth-child(8) span",
             "control": "property.innerText"
           },
           "updated": {
