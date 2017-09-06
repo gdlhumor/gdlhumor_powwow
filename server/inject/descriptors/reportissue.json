@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "comment": "Report a new Issue",
+  "properties": {
+    "summary": {
+      "type": "string"
+    },
+    "category": {
+      "type": "select"
+    },
+    "description": {
+      "type": "string"
+    },
+    "picture": {
+      "type": "string"
+    },
+    "severity": {
+      "type": "select"
+    }
+  },
+  "connect": []
+}
