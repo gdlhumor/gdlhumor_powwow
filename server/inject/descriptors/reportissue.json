@@ -3,10 +3,13 @@
   "comment": "Report a new Issue",
   "properties": {
     "summary": {
-      "type": "string"
+      "type": "string",
+      "selector": "[name=\"summary\"]",
+      "control": "text"
     },
     "category": {
-      "type": "select"
+      "type": "select",
+      "selector": "[name=\"category_id\"]"
     },
     "description": {
       "type": "string"
