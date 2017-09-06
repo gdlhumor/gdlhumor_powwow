@@ -8,7 +8,6 @@
     "needToJump": {
       "type": "boolean",
       "control": "exists",
-      "selectContains": "My View",
       "selector": {
         "fn": "function needToJump(){return document.title=='My View - MantisBT'}",
         "selector": ""
