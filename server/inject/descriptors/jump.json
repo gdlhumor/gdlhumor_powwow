@@ -7,10 +7,13 @@
     },
     "needToJump": {
       "type": "boolean",
-      "control": "exists",
       "selector": {
-        "fn": "function needToJump(){return document.title=='My View - MantisBT'}",
+        "fn": "function needToJump(){return document.title}",
         "selector": ""
+      },
+      "control": {
+        "fn": "",
+        "control": ""
       }
     }
   },
