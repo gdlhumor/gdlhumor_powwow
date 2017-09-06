@@ -3,7 +3,9 @@
   "comment": "",
   "properties": {
     "actionLink": {
-      "type": "action"
+      "type": "action",
+      "selector": "a[href*='view_all_bug']",
+      "control": "action.link"
     },
     "needToJump": {
       "type": "boolean",
