@@ -5,6 +5,11 @@
       "type": "identifier",
       "selector": ".subtle",
       "control": "exists"
+    },
+    "viewissues": {
+      "type": "action",
+      "control": "action.link",
+      "selector": "a[href*='view_all_bug']"
     }
   },
   "connect": []
