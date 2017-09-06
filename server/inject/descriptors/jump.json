@@ -7,8 +7,9 @@
     },
     "needToJump": {
       "type": "boolean",
-      "selector": "a[href*='view_all_bug']",
-      "control": "exists"
+      "selector": "title",
+      "control": "exists",
+      "selectContains": "My View"
     }
   },
   "connect": []
