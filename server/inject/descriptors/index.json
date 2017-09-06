@@ -6,5 +6,6 @@
   "blank.json",
   "login.json",
   "viewissues.json",
-  "reportissue.json"
+  "reportissue.json",
+  "jump.json"
 ]

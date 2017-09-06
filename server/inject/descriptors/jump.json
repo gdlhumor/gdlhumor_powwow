@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "comment": "",
+  "properties": {
+    "actionLink": {
+      "type": "action"
+    },
+    "id": {
+      "type": "string"
+    }
+  },
+  "connect": []
+}
