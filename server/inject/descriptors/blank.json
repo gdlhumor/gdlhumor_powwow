@@ -14,9 +14,7 @@
   },
   "connect": [
     {
-      "match": [
-        "isBlank"
-      ],
+      "match": [],
       "action": "viewissues"
     }
   ]
