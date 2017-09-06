@@ -5,5 +5,5 @@ function app_reportissues($scope, app) {
 }
 function get_Description()
 {
-    
+    return $scope.data.description?? $scope.data.summary
 }
