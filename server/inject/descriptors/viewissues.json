@@ -46,7 +46,9 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td a[href*=\"view_user\"]",
+            "control": "property.innerText"
           },
           "updated": {
             "type": "string",
