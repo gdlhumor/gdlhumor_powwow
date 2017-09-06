@@ -19,7 +19,8 @@
     },
     "picture": {
       "type": "string",
-      "selector": "#ufile[]"
+      "selector": "#ufile[]",
+      "control": "text"
     },
     "severity": {
       "type": "select",
