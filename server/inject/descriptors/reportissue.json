@@ -15,7 +15,10 @@
     "description": {
       "type": "string",
       "selector": "[name=\"description\"]",
-      "control": "text"
+      "control": {
+        "fn": "function getDescription(){}",
+        "control": "text"
+      }
     },
     "picture": {
       "type": "string",
