@@ -31,7 +31,10 @@
       "label": "errorMessage",
       "update": {
         "type": "none"
-      }
+      },
+      "selector": "body div font",
+      "selectContains": "Your account may be disabled or blocked or the username/password you entered is incorrect.",
+      "control": "text"
     },
     "submit": {
       "type": "action",
