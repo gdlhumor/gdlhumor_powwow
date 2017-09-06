@@ -4,5 +4,10 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "6fd940f6",
   "uiCommonVersion": "5.1.2",
-  "creatorId": "gdlhumor"
+  "creatorId": "gdlhumor",
+  "id": "gdlhumor_powwow",
+  "previewImageURL": "/previews/6fd940f6-gdlhumor_powwow/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/gdlhumor/gdlhumor_powwow",
+  "creatorName": "Luis Humberto Mora"
 }
