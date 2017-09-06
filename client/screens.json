@@ -42,6 +42,12 @@
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "model": "reportissue"
+    },
+    {
+      "id": "jumpscreen",
+      "name": "jumpScreen",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",

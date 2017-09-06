@@ -60,5 +60,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.jumpscreen', {
+        views: {
+            app: {
+                controller: 'app_jumpscreen',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.jumpscreen');
+                }
+            }
+        }
     });
 });
