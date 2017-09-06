@@ -7,9 +7,12 @@
     },
     "needToJump": {
       "type": "boolean",
-      "selector": "title",
       "control": "exists",
-      "selectContains": "My View"
+      "selectContains": "My View",
+      "selector": {
+        "fn": "function needToJump(){return document.title=='My View - MantisBT'}",
+        "selector": ""
+      }
     }
   },
   "connect": []
