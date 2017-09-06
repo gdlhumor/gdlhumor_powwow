@@ -12,5 +12,12 @@
       "selector": "a[href*='view_all_bug']"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isBlank"
+      ],
+      "action": "viewissues"
+    }
+  ]
 }
