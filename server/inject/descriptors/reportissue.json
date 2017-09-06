@@ -9,7 +9,8 @@
     },
     "category": {
       "type": "select",
-      "selector": "[name=\"category_id\"]"
+      "selector": "[name=\"category_id\"]",
+      "control": "select"
     },
     "description": {
       "type": "string"
