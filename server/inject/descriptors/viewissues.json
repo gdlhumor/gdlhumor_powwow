@@ -48,7 +48,8 @@
               "type": "none"
             },
             "selector": "td a",
-            "control": "property.innerText"
+            "control": "property.innerText",
+            "selectContains": "view_user_page"
           },
           "updated": {
             "type": "string",
