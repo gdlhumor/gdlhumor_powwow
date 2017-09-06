@@ -146,6 +146,9 @@
       },
       "picture": {
         "type": "string"
+      },
+      "severity": {
+        "type": "select"
       }
     }
   }
