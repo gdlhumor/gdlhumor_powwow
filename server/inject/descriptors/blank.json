@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "isBlank": {
+      "type": "identifier",
+      "selector": ".subtle",
+      "control": "exists"
+    }
+  },
+  "connect": []
+}
