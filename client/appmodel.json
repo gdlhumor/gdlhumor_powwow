@@ -128,6 +128,9 @@
     "properties": {
       "actionLink": {
         "type": "action"
+      },
+      "id": {
+        "type": "string"
       }
     }
   }
