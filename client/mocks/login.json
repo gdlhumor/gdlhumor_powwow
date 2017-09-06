@@ -1,4 +1,5 @@
 {
  "username":"admin",
+ "passowrd":"powwow",
  "errorMessage": "Your account may be disabled or blocked or the username/password you entered is incorrect."
 }
