@@ -9,14 +9,11 @@
     },
     "needToJump": {
       "type": "boolean",
-      "selector": {
-        "fn": "function needToJump(){return document.title==''}",
-        "selector": ""
-      },
       "control": {
         "fn": "",
-        "control": "text"
-      }
+        "control": "exists"
+      },
+      "selector": "a[href*='view_all_bug']"
     }
   },
   "connect": []
