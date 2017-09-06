@@ -56,7 +56,7 @@
               "type": "none"
             },
             "selector": "td",
-            "selectIndex": 10,
+            "selectIndex": 9,
             "control": "property.innerText"
           }
         }
