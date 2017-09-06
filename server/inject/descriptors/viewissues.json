@@ -47,7 +47,7 @@
             "update": {
               "type": "none"
             },
-            "selector": "td>a",
+            "selector": "td:any-link",
             "control": "property.innerText"
           },
           "updated": {
