@@ -31,7 +31,6 @@
               "type": "none"
             },
             "selector": "td span",
-            "selectIndex": 8,
             "control": "property.innerText"
           },
           "severity": {
